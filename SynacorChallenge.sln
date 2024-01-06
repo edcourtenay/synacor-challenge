@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B1CFAAFD-C667-4DEF-BE80-01D4B108DEBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynacorChallenge", "src\SynacorChallenge\SynacorChallenge.csproj", "{95EC0798-C580-4587-8C76-6D98FD6B3D61}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{2B7474D7-6767-4903-BD0C-9222EC36CB93}"
+	ProjectSection(SolutionItems) = preProject
+		arch-spec = arch-spec
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95EC0798-C580-4587-8C76-6D98FD6B3D61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95EC0798-C580-4587-8C76-6D98FD6B3D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95EC0798-C580-4587-8C76-6D98FD6B3D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95EC0798-C580-4587-8C76-6D98FD6B3D61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{95EC0798-C580-4587-8C76-6D98FD6B3D61} = {B1CFAAFD-C667-4DEF-BE80-01D4B108DEBA}
+	EndGlobalSection
+EndGlobal
